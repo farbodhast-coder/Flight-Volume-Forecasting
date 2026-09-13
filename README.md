@@ -73,7 +73,8 @@ Model B deliberately removes columns that are defined as components of the targe
 flight_forecast/
 ├── src/
 │   ├── train.py        # Main training pipeline (entry point)
-│   └── config.py       # Centralised hyperparameter & column config
+│   |── config.py     # Centralised hyperparameter & column config
+|   └── e_f_d.csv     # dataset
 ├── requirements.txt    # Python dependencies
 ├── LICENSE             # MIT License
 └── README.md           # This file
