@@ -84,27 +84,30 @@ flight_forecast/
 
 ## Quick Start
 
-### 1 — Clone / download
+### 1 - download dataset from kaggle
+https://www.kaggle.com/datasets/samithsachidanandan/air-traffic-in-europe-from-2016-to-2024
+
+### 2 — Clone / download
 
 ```bash
 git clone https://github.com/<your-org>/flight-forecast.git
 cd flight-forecast
 ```
 
-### 2 — Create a virtual environment
+### 3 — Create a virtual environment
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 ```
 
-### 3 — Install dependencies
+### 4 — Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4 — Run training
+### 5 — Run training
 
 ```bash
 python src/train.py path/to/e_f_d.csv
